@@ -1,5 +1,16 @@
 # CONVERT HEATHEN 
 
+## My Sensible default styles and boilerplate for SvelteKit projects
+
+### Comes with 
+
+- TailwindCSS
+- Auto reorder tailwind tags 
+- Lexend font & Typescale 
+- Decent light and dark mode colors 
+- A few components to get you started
+- Film grain effect 
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
