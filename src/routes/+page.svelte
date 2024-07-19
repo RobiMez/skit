@@ -51,6 +51,9 @@
 				System pref
 			</button>
 		</div>
-		<a href="/debug" > Features </a>
+		<span class="flex flex-row gap-3">
+			<a href="/debug"> Features </a>
+			<a href="https://github.com/RobiMez/skit" target="_blank"> Repo </a>
+		</span>
 	{/if}
 </div>
