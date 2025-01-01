@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light & dark mode auto styles  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small {
+	@apply bg-lgt-base text-lgt-con 
+		transition-colors duration-300 dark:bg-drk-base dark:text-drk-con;
+}
+
+body {
+	@apply bg-lgt-base text-lgt-con transition-colors duration-300 
+    dark:bg-drk-base dark:text-drk-con;
+}
+
+a {
+	@apply text-lgt-con underline  decoration-lgt-con-sec/30 dark:text-drk-con dark:decoration-drk-con-sec/30 decoration-2;
+}

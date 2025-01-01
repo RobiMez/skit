@@ -122,6 +122,38 @@ export default {
 
 					},
 				},
+
+				playful: {
+					'font-display': 'Fredoka',
+					'font-content': 'Lexend',
+					'font-handwriting': 'Amatic SC',
+
+					light: {
+						'primary': '#FF6B6B',
+						'secondary': '#4ECDC4',
+						'background': '#FFFFFF',
+						'text': '#2C3E50',
+						'radius': '0.2em',
+
+						'font-display-weight': '400',
+						'font-content-weight': '400',
+						'font-handwriting-weight': '400',
+
+					},
+					dark: {
+						'primary': '#FF8787',
+						'secondary': '#66D9E8',
+						'background': '#2C3E50',
+						'text': '#FFFFFF',
+						'radius': '0.2em',
+
+						'font-display-weight': '400',
+						'font-content-weight': '400',
+						'font-handwriting-weight': '400',
+
+
+					},
+				},
 			}
 		}
 	},
@@ -157,8 +189,41 @@ export default {
 					'--font-display-weight': theme('themeVariables.default.dark.font-display-weight'),
 					'--font-content-weight': theme('themeVariables.default.dark.font-content-weight'),
 					'--font-handwriting-weight': theme('themeVariables.default.dark.font-handwriting-weight'),
+
+				},
+
+				'.light .theme-playful ': {
+					'--primary': hexToHSL(theme('themeVariables.playful.light.primary')),
+					'--secondary': hexToHSL(theme('themeVariables.playful.light.secondary')),
+					'--background': hexToHSL(theme('themeVariables.playful.light.background')),
+					'--text': hexToHSL(theme('themeVariables.playful.light.text')),
+
+					'--font-display': theme('themeVariables.playful.font-display'),
+					'--font-content': theme('themeVariables.playful.font-content'),
+					'--font-handwriting': theme('themeVariables.playful.font-handwriting'),
+
+					'--font-display-weight': theme('themeVariables.playful.light.font-display-weight'),
+					'--font-content-weight': theme('themeVariables.playful.light.font-content-weight'),
+					'--font-handwriting-weight': theme('themeVariables.playful.light.font-handwriting-weight'),
+				},
+				'.dark .theme-playful': {
+					'--primary': hexToHSL(theme('themeVariables.playful.dark.primary')),
+					'--secondary': hexToHSL(theme('themeVariables.playful.dark.secondary')),
+					'--background': hexToHSL(theme('themeVariables.playful.dark.background')),
+					'--text': hexToHSL(theme('themeVariables.playful.dark.text')),
+
+					'--font-display': theme('themeVariables.playful.font-display'),
+					'--font-content': theme('themeVariables.playful.font-content'), '--font-handwriting': theme('themeVariables.playful.font-handwriting'),
+
+					'--font-display-weight': theme('themeVariables.playful.dark.font-display-weight'),
+					'--font-content-weight': theme('themeVariables.playful.dark.font-content-weight'),
+					'--font-handwriting-weight': theme('themeVariables.playful.dark.font-handwriting-weight'),
+
+
 				},
 			})
+
 		})
 	]
 };
+

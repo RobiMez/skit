@@ -52,7 +52,7 @@
 			</button>
 		</div>
 		<span class="flex flex-row gap-3">
-			<a href="/themes"> Design System </a>
+			<a href="/debug"> Features </a>
 			<a href="https://github.com/RobiMez/skit" target="_blank"> Repo </a>
 		</span>
 	{/if}
