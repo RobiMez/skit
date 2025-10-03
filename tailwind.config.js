@@ -1,4 +1,3 @@
-import tailwindcssAnimate from 'tailwindcss-animate';
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -114,7 +113,7 @@ const config = {
 			}
 		}
 	},
-	plugins: [tailwindcssAnimate, require('tailwind-scrollbar-hide')]
+	plugins: []
 };
 
 export default config;
